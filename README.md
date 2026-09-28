@@ -17,8 +17,10 @@ git clone https://github.com/eduardobbrito/mvp-pucrio-arquitetura-docas-front.gi
 
 ### Opção 1 — docker-compose (as duas componentes de uma vez)
 
+O `docker-compose.yml` fica na raiz do repositório da interface (componente principal):
+
 ```bash
-cd mvp-pucrio-arquitetura-docas-api
+cd mvp-pucrio-arquitetura-docas-front
 docker compose up --build
 ```
 
@@ -175,7 +177,7 @@ docker run -p 5000:5000 -e URL_BANCO=sqlite:////app/dados/docas.sqlite3 -v docas
 
 ## Execução com docker-compose
 
-O `docker-compose.yml` deste repositório sobe a API e a interface juntas. Os dois repositórios precisam estar clonados lado a lado na mesma pasta:
+O `docker-compose.yml` que sobe a API e a interface juntas fica na raiz do [repositório da interface](https://github.com/eduardobbrito/mvp-pucrio-arquitetura-docas-front), a componente principal. Os dois repositórios precisam estar clonados lado a lado na mesma pasta:
 
 ```
 pasta/
@@ -183,7 +185,7 @@ pasta/
 └── mvp-pucrio-arquitetura-docas-front/
 ```
 
-Dentro de `mvp-pucrio-arquitetura-docas-api`:
+Dentro de `mvp-pucrio-arquitetura-docas-front`:
 
 ```bash
 docker compose up --build
