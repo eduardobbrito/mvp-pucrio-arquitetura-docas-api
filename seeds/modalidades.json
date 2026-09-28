@@ -1,0 +1,29 @@
+[
+  {
+    "codigo": "economico",
+    "nome": "Econômico",
+    "multiplicador_valor": 0.7,
+    "ajuste_prazo_dias": 4,
+    "prazo_minimo_dias": 1,
+    "prazo_maximo_dias": null,
+    "ativa": true
+  },
+  {
+    "codigo": "padrao",
+    "nome": "Padrão",
+    "multiplicador_valor": 1.0,
+    "ajuste_prazo_dias": 0,
+    "prazo_minimo_dias": 1,
+    "prazo_maximo_dias": null,
+    "ativa": true
+  },
+  {
+    "codigo": "expresso",
+    "nome": "Expresso",
+    "multiplicador_valor": 1.9,
+    "ajuste_prazo_dias": -2,
+    "prazo_minimo_dias": 1,
+    "prazo_maximo_dias": 3,
+    "ativa": true
+  }
+]

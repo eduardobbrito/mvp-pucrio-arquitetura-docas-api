@@ -1,0 +1,302 @@
+[
+  {
+    "cep": "01310100",
+    "logradouro": "Avenida Paulista",
+    "numero": "1578",
+    "bairro": "Bela Vista",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "latitude": -23.5617698,
+    "longitude": -46.6553299
+  },
+  {
+    "cep": "13010111",
+    "logradouro": "Rua General Osório",
+    "numero": "455",
+    "bairro": "Centro",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "latitude": -22.90556,
+    "longitude": -47.06083
+  },
+  {
+    "cep": "14010000",
+    "logradouro": "Rua General Osório",
+    "numero": "1020",
+    "bairro": "Centro",
+    "cidade": "Ribeirão Preto",
+    "uf": "SP",
+    "latitude": -21.1775,
+    "longitude": -47.81028
+  },
+  {
+    "cep": "24020005",
+    "logradouro": "Avenida Visconde do Rio Branco",
+    "numero": "233",
+    "bairro": "Centro",
+    "cidade": "Niterói",
+    "uf": "RJ",
+    "latitude": -22.88333,
+    "longitude": -43.10361
+  },
+  {
+    "cep": "30130010",
+    "logradouro": "Praça Sete de Setembro",
+    "numero": "80",
+    "bairro": "Centro",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "latitude": -19.92083,
+    "longitude": -43.93778
+  },
+  {
+    "cep": "38400100",
+    "logradouro": "Avenida Floriano Peixoto",
+    "numero": "3100",
+    "bairro": "Centro",
+    "cidade": "Uberlândia",
+    "uf": "MG",
+    "latitude": -18.91861,
+    "longitude": -48.27722
+  },
+  {
+    "cep": "36010000",
+    "logradouro": "Rua Halfeld",
+    "numero": "700",
+    "bairro": "Centro",
+    "cidade": "Juiz de Fora",
+    "uf": "MG",
+    "latitude": -21.76417,
+    "longitude": -43.35028
+  },
+  {
+    "cep": "29010935",
+    "logradouro": "Avenida Jerônimo Monteiro",
+    "numero": "1311",
+    "bairro": "Centro",
+    "cidade": "Vitória",
+    "uf": "ES",
+    "latitude": -20.31944,
+    "longitude": -40.33778
+  },
+  {
+    "cep": "80010000",
+    "logradouro": "Rua José Loureiro",
+    "numero": "115",
+    "bairro": "Centro",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "latitude": -25.42778,
+    "longitude": -49.27306
+  },
+  {
+    "cep": "86010000",
+    "logradouro": "Rua Professor João Cândido",
+    "numero": "280",
+    "bairro": "Centro",
+    "cidade": "Londrina",
+    "uf": "PR",
+    "latitude": -23.31028,
+    "longitude": -51.16278
+  },
+  {
+    "cep": "88010000",
+    "logradouro": "Rua Felipe Schmidt",
+    "numero": "1500",
+    "bairro": "Centro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "latitude": -27.59667,
+    "longitude": -48.54917
+  },
+  {
+    "cep": "89201000",
+    "logradouro": "Rua do Príncipe",
+    "numero": "950",
+    "bairro": "Centro",
+    "cidade": "Joinville",
+    "uf": "SC",
+    "latitude": -26.30444,
+    "longitude": -48.84556
+  },
+  {
+    "cep": "90010000",
+    "logradouro": "Rua Siqueira Campos",
+    "numero": "301",
+    "bairro": "Centro Histórico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "latitude": -30.03283,
+    "longitude": -51.23019
+  },
+  {
+    "cep": "95020000",
+    "logradouro": "Rua Sinimbu",
+    "numero": "1123",
+    "bairro": "Nossa Senhora de Lourdes",
+    "cidade": "Caxias do Sul",
+    "uf": "RS",
+    "latitude": -29.16806,
+    "longitude": -51.17944
+  },
+  {
+    "cep": "40020000",
+    "logradouro": "Rua Chile",
+    "numero": "2210",
+    "bairro": "Centro",
+    "cidade": "Salvador",
+    "uf": "BA",
+    "latitude": -12.97563,
+    "longitude": -38.49096
+  },
+  {
+    "cep": "50010000",
+    "logradouro": "Avenida Guararapes",
+    "numero": "65",
+    "bairro": "Santo Antônio",
+    "cidade": "Recife",
+    "uf": "PE",
+    "latitude": -8.05389,
+    "longitude": -34.88111
+  },
+  {
+    "cep": "60060000",
+    "logradouro": "Rua Rodrigues Júnior",
+    "numero": "412",
+    "bairro": "Centro",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "latitude": -3.71722,
+    "longitude": -38.54306
+  },
+  {
+    "cep": "65010000",
+    "logradouro": "Rua Vinte e Oito de Setembro",
+    "numero": "88",
+    "bairro": "Centro",
+    "cidade": "São Luís",
+    "uf": "MA",
+    "latitude": -2.52972,
+    "longitude": -44.30278
+  },
+  {
+    "cep": "59012000",
+    "logradouro": "Avenida Rio Branco",
+    "numero": "1201",
+    "bairro": "Ribeira",
+    "cidade": "Natal",
+    "uf": "RN",
+    "latitude": -5.795,
+    "longitude": -35.20944
+  },
+  {
+    "cep": "58010000",
+    "logradouro": "Avenida Beaurepaire Rohan",
+    "numero": "47",
+    "bairro": "Varadouro",
+    "cidade": "João Pessoa",
+    "uf": "PB",
+    "latitude": -7.115,
+    "longitude": -34.86306
+  },
+  {
+    "cep": "57020000",
+    "logradouro": "Rua do Comércio",
+    "numero": "350",
+    "bairro": "Centro",
+    "cidade": "Maceió",
+    "uf": "AL",
+    "latitude": -9.66583,
+    "longitude": -35.73528
+  },
+  {
+    "cep": "49010000",
+    "logradouro": "Rua Laranjeiras",
+    "numero": "1090",
+    "bairro": "Centro",
+    "cidade": "Aracaju",
+    "uf": "SE",
+    "latitude": -10.91111,
+    "longitude": -37.07167
+  },
+  {
+    "cep": "69005000",
+    "logradouro": "Rua Marechal Deodoro",
+    "numero": "205",
+    "bairro": "Centro",
+    "cidade": "Manaus",
+    "uf": "AM",
+    "latitude": -3.10194,
+    "longitude": -60.025
+  },
+  {
+    "cep": "66010000",
+    "logradouro": "Avenida Presidente Vargas",
+    "numero": "640",
+    "bairro": "Campina",
+    "cidade": "Belém",
+    "uf": "PA",
+    "latitude": -1.45583,
+    "longitude": -48.50444
+  },
+  {
+    "cep": "76801000",
+    "logradouro": "Avenida Pinheiro Machado",
+    "numero": "900",
+    "bairro": "Centro",
+    "cidade": "Porto Velho",
+    "uf": "RO",
+    "latitude": -8.76194,
+    "longitude": -63.90389
+  },
+  {
+    "cep": "69301000",
+    "logradouro": "Avenida Ville Roy",
+    "numero": "215",
+    "bairro": "Centro",
+    "cidade": "Boa Vista",
+    "uf": "RR",
+    "latitude": 2.81972,
+    "longitude": -60.67333
+  },
+  {
+    "cep": "70040010",
+    "logradouro": "Quadra SBN Quadra 1",
+    "numero": "1800",
+    "bairro": "Asa Norte",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "latitude": -15.77972,
+    "longitude": -47.92972
+  },
+  {
+    "cep": "74003010",
+    "logradouro": "Praça Doutor Pedro Ludovico Teixeira",
+    "numero": "130",
+    "bairro": "Setor Central",
+    "cidade": "Goiânia",
+    "uf": "GO",
+    "latitude": -16.67861,
+    "longitude": -49.25389
+  },
+  {
+    "cep": "78005000",
+    "logradouro": "Rua Engenheiro Ricardo Franco",
+    "numero": "870",
+    "bairro": "Centro-Norte",
+    "cidade": "Cuiabá",
+    "uf": "MT",
+    "latitude": -15.59611,
+    "longitude": -56.09667
+  },
+  {
+    "cep": "79002000",
+    "logradouro": "Avenida Calógeras",
+    "numero": "1004",
+    "bairro": "Centro",
+    "cidade": "Campo Grande",
+    "uf": "MS",
+    "latitude": -20.44278,
+    "longitude": -54.64639
+  }
+]

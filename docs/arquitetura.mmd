@@ -1,0 +1,23 @@
+%% Fluxograma da arquitetura do MVP Docas (fonte do docs/arquitetura.png)
+flowchart LR
+    operador(["Operador de logística"])
+
+    subgraph navegador["Navegador"]
+        front["Interface Docas<br/>Vite + React + TypeScript<br/>(nginx, porta 3000)"]
+    end
+
+    subgraph servidor["Servidor"]
+        api["API Docas<br/>Flask + flask-openapi3<br/>(gunicorn, porta 5000)"]
+        banco[("SQLite<br/>docas.sqlite3")]
+    end
+
+    subgraph externas["APIs externas públicas"]
+        dummy["DummyJSON<br/>carts, produtos, usuários"]
+        brasil["BrasilAPI<br/>CEP v2"]
+    end
+
+    operador --> front
+    front -- "REST/JSON<br/>GET · POST · PUT · DELETE" --> api
+    api -- "SQLAlchemy" --> banco
+    api -- "HTTPS GET<br/>importação de pedidos" --> dummy
+    api -- "HTTPS GET<br/>endereço e coordenadas" --> brasil

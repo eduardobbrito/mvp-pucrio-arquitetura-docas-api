@@ -1,0 +1,13 @@
+# Arquivos que não devem entrar na imagem
+.venv/
+venv/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+.env
+**/*.sqlite3
+log/
+.git/
+**/.DS_Store
+docs/
+tests/

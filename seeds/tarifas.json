@@ -1,0 +1,122 @@
+[
+  {
+    "peso_max_kg": 1,
+    "distancia_max_km": 100,
+    "valor": 18.0,
+    "prazo_dias_uteis": 1
+  },
+  {
+    "peso_max_kg": 1,
+    "distancia_max_km": 500,
+    "valor": 24.0,
+    "prazo_dias_uteis": 3
+  },
+  {
+    "peso_max_kg": 1,
+    "distancia_max_km": 1500,
+    "valor": 32.0,
+    "prazo_dias_uteis": 5
+  },
+  {
+    "peso_max_kg": 1,
+    "distancia_max_km": 3000,
+    "valor": 42.0,
+    "prazo_dias_uteis": 7
+  },
+  {
+    "peso_max_kg": 1,
+    "distancia_max_km": 99999,
+    "valor": 55.0,
+    "prazo_dias_uteis": 10
+  },
+  {
+    "peso_max_kg": 3,
+    "distancia_max_km": 100,
+    "valor": 22.0,
+    "prazo_dias_uteis": 1
+  },
+  {
+    "peso_max_kg": 3,
+    "distancia_max_km": 500,
+    "valor": 30.0,
+    "prazo_dias_uteis": 3
+  },
+  {
+    "peso_max_kg": 3,
+    "distancia_max_km": 1500,
+    "valor": 42.0,
+    "prazo_dias_uteis": 5
+  },
+  {
+    "peso_max_kg": 3,
+    "distancia_max_km": 3000,
+    "valor": 55.0,
+    "prazo_dias_uteis": 7
+  },
+  {
+    "peso_max_kg": 3,
+    "distancia_max_km": 99999,
+    "valor": 72.0,
+    "prazo_dias_uteis": 10
+  },
+  {
+    "peso_max_kg": 10,
+    "distancia_max_km": 100,
+    "valor": 35.0,
+    "prazo_dias_uteis": 1
+  },
+  {
+    "peso_max_kg": 10,
+    "distancia_max_km": 500,
+    "valor": 48.0,
+    "prazo_dias_uteis": 3
+  },
+  {
+    "peso_max_kg": 10,
+    "distancia_max_km": 1500,
+    "valor": 68.0,
+    "prazo_dias_uteis": 5
+  },
+  {
+    "peso_max_kg": 10,
+    "distancia_max_km": 3000,
+    "valor": 90.0,
+    "prazo_dias_uteis": 7
+  },
+  {
+    "peso_max_kg": 10,
+    "distancia_max_km": 99999,
+    "valor": 120.0,
+    "prazo_dias_uteis": 10
+  },
+  {
+    "peso_max_kg": 30,
+    "distancia_max_km": 100,
+    "valor": 70.0,
+    "prazo_dias_uteis": 1
+  },
+  {
+    "peso_max_kg": 30,
+    "distancia_max_km": 500,
+    "valor": 95.0,
+    "prazo_dias_uteis": 3
+  },
+  {
+    "peso_max_kg": 30,
+    "distancia_max_km": 1500,
+    "valor": 130.0,
+    "prazo_dias_uteis": 5
+  },
+  {
+    "peso_max_kg": 30,
+    "distancia_max_km": 3000,
+    "valor": 170.0,
+    "prazo_dias_uteis": 7
+  },
+  {
+    "peso_max_kg": 30,
+    "distancia_max_km": 99999,
+    "valor": 220.0,
+    "prazo_dias_uteis": 10
+  }
+]

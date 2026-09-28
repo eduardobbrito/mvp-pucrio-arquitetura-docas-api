@@ -1,0 +1,12 @@
+Flask==3.1.3
+flask-cors==6.0.5
+flask-openapi3==4.3.2
+flask-openapi3-rapidoc==9.3.8
+flask-openapi3-redoc==2.5.2
+flask-openapi3-swagger==5.31.0
+gunicorn==26.2.0
+pydantic==2.13.5
+pytest==9.1.1
+python-dotenv==1.2.3
+requests==2.34.2
+SQLAlchemy==2.1.1

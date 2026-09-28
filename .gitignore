@@ -1,0 +1,18 @@
+# Ambiente virtual e caches do Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Variáveis de ambiente locais (nunca versionar)
+.env
+
+# Banco SQLite gerado em runtime
+*.sqlite3
+
+# Arquivos do sistema
+.DS_Store
+
+# Logs
+log/
