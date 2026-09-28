@@ -86,7 +86,7 @@ resolver_coordenadas_armazem()
 tag_documentacao = Tag(name="Documentação", description="Seleção da documentação: Swagger, ReDoc ou RapiDoc.")
 
 
-@app.get("/", tags=[tag_documentacao])
+@app.get("/", tags=[tag_documentacao], summary="Redireciona para a documentação")
 def inicio():
     """Redireciona para /openapi, onde se escolhe o estilo de documentação."""
     return redirect("/openapi")

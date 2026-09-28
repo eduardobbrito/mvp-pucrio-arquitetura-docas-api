@@ -98,6 +98,7 @@ A API sobe em http://localhost:5000 e o Swagger fica em **http://localhost:5000/
 Variáveis de ambiente (ver `.env.example`):
 - `FRONT_URL`: origens autorizadas no CORS, separadas por vírgula (padrão: `http://localhost:3000,http://localhost:5173`).
 - `PORTA`: porta do `python app.py` (padrão: `5000`).
+- `URL_BANCO`: URL do banco SQLite (padrão: `database/docas.sqlite3`). É usada pelo docker-compose para gravar o banco em um volume.
 
 ## Execução com Docker
 
@@ -106,10 +107,39 @@ docker build -t docas-api .
 docker run -p 5000:5000 docas-api
 ```
 
-Para manter o banco entre execuções, monte um volume na pasta do SQLite:
+Para manter o banco entre execuções, aponte o SQLite para uma pasta fora do código e monte um volume nela:
 
 ```bash
-docker run -p 5000:5000 -v docas-dados:/app/database docas-api
+docker run -p 5000:5000 -e URL_BANCO=sqlite:////app/dados/docas.sqlite3 -v docas-dados:/app/dados docas-api
+```
+
+## Execução com docker-compose
+
+O `docker-compose.yml` deste repositório sobe a API e a interface juntas. Os dois repositórios precisam estar clonados lado a lado na mesma pasta:
+
+```
+pasta/
+├── mvp-pucrio-arquitetura-docas-api/
+└── mvp-pucrio-arquitetura-docas-front/
+```
+
+Dentro de `mvp-pucrio-arquitetura-docas-api`:
+
+```bash
+docker compose up --build
+```
+
+- Interface: **http://localhost:3000**
+- API e Swagger: **http://localhost:5000/openapi**
+
+O banco fica no volume `docas-dados` e sobrevive a reinícios e rebuilds. Para apagar os dados e recomeçar do zero, use `docker compose down -v`.
+
+## Testes
+
+Os testes cobrem as regras de frete (pesos, haversine, dias úteis, faixas, excedente, modalidades) e a máquina de estados. Eles usam um banco SQLite em memória e não acessam a rede.
+
+```bash
+pytest
 ```
 
 ## Estrutura
@@ -123,5 +153,6 @@ schemas/          schemas Pydantic (entrada, saída e erros; geram o Swagger)
 routes/           blueprints: pedidos, cotações, tarifas/modalidades, painel
 services/         clientes DummyJSON e BrasilAPI, importação, frete, máquina de estados, seeds
 seeds/            endereços, tarifas e modalidades iniciais
+tests/            testes de frete e de transições de status (pytest)
 docs/             fluxograma da arquitetura (PNG + fonte Mermaid)
 ```
