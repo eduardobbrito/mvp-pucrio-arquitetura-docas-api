@@ -2,8 +2,10 @@
 FROM python:3.12-slim
 
 # Evita arquivos .pyc e força logs sem buffer (aparecem na hora no "docker logs")
+# TZ: "hoje", datas prometidas, atrasos e horários no fuso de Brasília (o padrão do container é UTC)
 ENV PYTHONDONTWRITEBYTECODE=1 \
-    PYTHONUNBUFFERED=1
+    PYTHONUNBUFFERED=1 \
+    TZ=America/Sao_Paulo
 
 WORKDIR /app
 

@@ -6,6 +6,66 @@
 
 Este repositório é a **segunda componente** (API REST em Python) do MVP da disciplina de Arquitetura de Software da pós-graduação em Engenharia de Software da PUC-Rio. A componente principal é a interface web: [mvp-pucrio-arquitetura-docas-front](https://github.com/eduardobbrito/mvp-pucrio-arquitetura-docas-front).
 
+## Como rodar a API e a interface
+
+Clone os dois repositórios lado a lado na mesma pasta:
+
+```bash
+git clone https://github.com/eduardobbrito/mvp-pucrio-arquitetura-docas-api.git
+git clone https://github.com/eduardobbrito/mvp-pucrio-arquitetura-docas-front.git
+```
+
+### Opção 1 — docker-compose (as duas componentes de uma vez)
+
+```bash
+cd mvp-pucrio-arquitetura-docas-api
+docker compose up --build
+```
+
+### Opção 2 — Docker, um container por componente
+
+Terminal 1 (API):
+
+```bash
+cd mvp-pucrio-arquitetura-docas-api
+docker build -t docas-api .
+docker run -p 5000:5000 docas-api
+```
+
+Terminal 2 (interface):
+
+```bash
+cd mvp-pucrio-arquitetura-docas-front
+docker build --build-arg VITE_API_URL=http://localhost:5000 -t docas-front .
+docker run -p 3000:80 docas-front
+```
+
+### Opção 3 — local, sem Docker (Python 3.12 e Node 20.19+)
+
+Terminal 1 (API):
+
+```bash
+cd mvp-pucrio-arquitetura-docas-api
+python3.12 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python app.py
+```
+
+Terminal 2 (interface):
+
+```bash
+cd mvp-pucrio-arquitetura-docas-front
+npm install
+cp .env.example .env
+npm run dev
+```
+
+| | Docker (opções 1 e 2) | Local (opção 3) |
+|---|---|---|
+| Interface | http://localhost:3000 | http://localhost:5173 |
+| API / Swagger | http://localhost:5000/openapi | http://localhost:5000/openapi |
+
 ## Arquitetura
 
 ![Fluxograma da arquitetura](docs/arquitetura.png)

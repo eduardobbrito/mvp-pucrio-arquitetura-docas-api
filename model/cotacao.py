@@ -16,6 +16,9 @@ class Cotacao(Base):
     """
 
     __tablename__ = "cotacoes"
+    # AUTOINCREMENT impede o SQLite de reaproveitar ids de cotações apagadas ao recotar:
+    # um id antigo nunca passa a apontar para uma cotação nova com outro valor
+    __table_args__ = {"sqlite_autoincrement": True}
 
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
     pedido_id: Mapped[int] = mapped_column(ForeignKey("pedidos.id"), nullable=False)
